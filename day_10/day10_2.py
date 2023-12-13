@@ -108,12 +108,12 @@ def main():
     # print(diagram)
     # print(find_s(diagram))
     loop = find_loop(diagram, s_location, s)
-    # painted_diagram = paint_diagram(diagram, loop)
-    # for row in diagram:
-    #     print(''.join(row))
-    area = int(shoelace_formula(loop))
-    i = area + 1 - len(loop)//2
-    print(i)
+    painted_diagram = paint_diagram(diagram, loop)
+    for row in diagram:
+        print(''.join(row))
+    # area = int(shoelace_formula(loop))
+    # i = area + 1 - len(loop)//2
+    # print(i)
 
         
 
