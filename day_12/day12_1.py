@@ -20,11 +20,11 @@ def get_unknowns(conditions):
 
 def calculate_arrangements(spring):
     conditions, counts = spring
-    print(conditions)
-    print(counts)
+    # print(conditions)
+    # print(counts)
     unknowns = get_unknowns(conditions)
-    print(unknowns)
-    print(sum(counts))
+    # print(unknowns)
+    # print(sum(counts))
     for count in counts:
         index = 0
 
